@@ -4,7 +4,7 @@ export default {
    * GitHub Api
    * @method GET
    */
-  githubIssuesApi: 'https://api.github.com/repos/hexh250786313/Blog/issues',
-  githubInfoApi: 'https://api.github.com/repos/hexh250786313/Blog',
+  githubIssuesApi: 'https://api.github.com/repos/fdciabdul/blog/issues',
+  githubInfoApi: 'https://api.github.com/repos/fdciabdul/blog',
   githubSearchApi: 'https://api.github.com/search/issues'
 }
