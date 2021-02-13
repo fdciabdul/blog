@@ -90,7 +90,7 @@ function * fetchPostList () {
         })
       )
     } catch (e) {
-      yield put(requestFail('请求文章列表接口报错，请刷新页面或者联系我'))
+      yield put(requestFail('Error，Cannot fetching post'))
     } finally {
       if (callback) {
         yield call(() => {
